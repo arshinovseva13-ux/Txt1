@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Claude Sonnet 5.5: что это за модель</title>
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--bg:#eef2f6;--fg:#14202e;--muted:#566577;--accent:#1f5fd6;--panel:#ffffff;--line:#d3dce6}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1722;--fg:#e6edf5;--muted:#9aa9ba;--accent:#6ea2ff;--panel:#17212e;--line:#2a3646}}
+:root[data-theme="dark"]{--bg:#0f1722;--fg:#e6edf5;--muted:#9aa9ba;--accent:#6ea2ff;--panel:#17212e;--line:#2a3646}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Source Sans 3",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;font-size:18px}
+main{max-width:720px;margin:0 auto;padding:40px 20px 64px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:clamp(2.2rem,8vw,3.6rem);line-height:1.08;margin:0 0 16px;letter-spacing:-.02em}
+.lead{font-size:1.25rem;color:var(--muted);margin:0 0 32px}
+h2{font-family:Georgia,"Times New Roman",serif;font-size:1.6rem;margin:44px 0 12px;line-height:1.2}
+p{margin:0 0 16px}
+.panel{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:6px;padding:16px 20px;margin:24px 0}
+.panel p:last-child{margin:0}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:.95rem}
+th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+tr.me td{background:var(--panel);font-weight:600}
+code{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:.9em}
+ul{padding-left:22px;margin:0 0 16px}
+li{margin-bottom:8px}
+footer{margin-top:48px;color:var(--muted);font-size:.9rem}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<main>
+<h1>Claude Sonnet 5.5</h1>
+<p class="lead">Модель Anthropic среднего уровня, которая работает в приложении Claude, через API и во многих рабочих инструментах.</p>
+
+<h2>Где Sonnet 5.5 в линейке</h2>
+<p>Модели Claude делятся на уровни. Haiku самая компактная и быстрая, Sonnet занимает середину, Opus мощнее. Выше Opus стоит новый уровень Mythos. Sonnet 5.5 рассчитан на повседневную работу: тексты, анализ, код, учёба.</p>
+<div class="scroll">
+<table>
+<tr><th>Модель</th><th>Строка для API</th></tr>
+<tr><td>Claude Fable 5.1</td><td><code>claude-fable-5-1</code></td></tr>
+<tr><td>Claude Opus 5.5</td><td><code>claude-opus-5-5</code></td></tr>
+<tr class="me"><td>Claude Sonnet 5.5</td><td><code>claude-sonnet-5-5</code></td></tr>
+<tr><td>Claude Haiku 4.5</td><td><code>claude-haiku-4-5-20251001</code></td></tr>
+</table>
+</div>
+
+<h2>Что с ней можно делать</h2>
+<ul>
+<li>Писать и редактировать тексты, переводить, объяснять сложные темы.</li>
+<li>Разбирать фотографии и документы: например, школьные карточки с заданиями.</li>
+<li>Писать и исправлять код, анализировать данные.</li>
+<li>Искать в интернете свежую информацию, когда включён поиск.</li>
+<li>Создавать файлы, страницы и небольшие приложения, как эта страница.</li>
+</ul>
+
+<h2>Где её найти</h2>
+<p>Sonnet 5.5 доступен в веб-версии, мобильном и настольном приложении Claude. Для разработчиков есть API и платформа Claude. Модель работает и в других продуктах Anthropic:</p>
+<ul>
+<li><b>Claude Code</b> для программирования из командной строки.</li>
+<li><b>Claude Cowork</b> для рабочих задач без кода.</li>
+<li><b>Claude in Chrome, Excel и PowerPoint</b> для работы в браузере, таблицах и презентациях.</li>
+<li><b>Claude Tag</b> для вызова Claude прямо в Slack.</li>
+</ul>
+
+<div class="panel">
+<p>Актуальные цены, лимиты сообщений и новые функции меняются. Их лучше смотреть в документации на docs.claude.com и support.claude.com.</p>
+</div>
+
+<h2>Знания и актуальность</h2>
+<p>Надёжные знания модели заканчиваются в конце июня 2026 года. О более поздних событиях Claude может узнавать через веб-поиск, если он включён.</p>
+
+<footer>Страница создана самой моделью Claude Sonnet 5.5. В статье нет данных о тестах и ценах, потому что их нужно сверять с официальными источниками.</footer>
+</main>
+</body>
+</html>
